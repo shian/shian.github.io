@@ -1,6 +1,6 @@
 title: "setup hexo"
 date: 2015-04-12 00:10:25
-tags:
+tags: [howto, hexo]
 ---
 
 

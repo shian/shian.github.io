@@ -1,6 +1,6 @@
 title: "how to setup erlang"
 date: 2015-01-01T01:32:21.196+0800
-tags:
+tags: [howto, erlang]
 ---
 
 
