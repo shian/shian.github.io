@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 心得隨筆
+title: ~~ SHIAN ~~
 subtitle:
 description:
 author: Shian
@@ -30,7 +30,7 @@ skip_render:
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
@@ -44,7 +44,7 @@ highlight:
 marked:
   gfm: true
   pedantic: false
-  sanitize: true
+  sanitize: false
   tables: true
   breaks: false
   smartLists: true
@@ -77,5 +77,18 @@ stylus:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/shian/shian.github.io.git
+  type: 
+  repo: 
+
+## Theme
+# =============================================================================
+# NexT Theme configuration
+# =============================================================================
+avatar: https://s.gravatar.com/avatar/5a2f4caa40264f6b4b335bea93b179bd?s=80
+social:
+  GitHub: https://github.com/shian
+creative_commons: by-nc-sa
+since: 2011
+# =============================================================================
+# End NexT Theme configuration
+# =============================================================================

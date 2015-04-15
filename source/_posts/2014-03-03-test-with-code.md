@@ -33,7 +33,7 @@ for i in range(10):
 
 * Gist
 
-<iframe srcdoc='{% gist shian/f66363fd82e4a2edd89d %}' style="width:100%;height:100vh;"></iframe>
+{% gist shian/f66363fd82e4a2edd89d %}
 
 
 
