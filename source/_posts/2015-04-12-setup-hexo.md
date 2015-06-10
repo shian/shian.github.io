@@ -38,5 +38,6 @@ git clone -b master <<REPO>> public
 
 發布
 ====
-最後將 public 目錄 commit 到 master 分支中並 push 到 github 上。
+
+執行 `hexo generate` 來產生要發布的檔案，並用 `hexo deploy` 來將檔案發布到 github 上。
 
