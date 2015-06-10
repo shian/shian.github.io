@@ -1,8 +1,8 @@
 public/
 node_modules/
-themes/
 .idea/
 .deploy_git/
+themes/*
 
 *.iml
 db.json
