@@ -322,7 +322,7 @@ NPM</p>
 <h1 id="將發布的檔案放到_master_分支上">將發布的檔案放到 master 分支上</h1><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone -b master &lt;&lt;<span class="constant">REPO</span><span class="prompt">&gt;&gt; </span>public</span><br></pre></td></tr></table></figure>
 <h1 id="新增文章">新增文章</h1><p>首先先用 hexo new draft &quot;title&quot; 產生文章樣板，在編輯文章的時候隨時可以用 git 將其 commit 到 source 分支中進行保存。
 撰寫完成後在執行 hexo public &quot;title&quot; 將文章移至 _post 目錄中。</p>
-<h1 id="發布">發布</h1><p>最後將 public 目錄 commit 到 master 分支中並 push 到 github 上。</p>
+<h1 id="發布">發布</h1><p>執行 <code>hexo generate</code> 來產生要發布的檔案，並用 <code>hexo deploy</code> 來將檔案發布到 github 上。</p>
 
           
         
@@ -1027,5 +1027,14 @@ if you like.</p>
 
 
   
+  <script type="text/javascript">
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-30528864-3');ga('send','pageview');
+  </script>
+
 </body>
 </html>
