@@ -73,6 +73,7 @@ pagination_dir: page
 theme: next
 stylus:
   compress: true
+google_analytics: UA-30528864-3
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
