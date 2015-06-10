@@ -77,8 +77,9 @@ stylus:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  repo: 
+  type: git
+  repo: https://github.com/shian/shian.github.io.git
+  branch: master
 
 ## Theme
 # =============================================================================
