@@ -1,13 +1,11 @@
 
-## Git 操作
+## 取得檔案庫
 
 根據 [github pages](https://pages.github.com/) 的說明，個人專案的靜態檔案是放置在 master 這個分支下，因此原始檔案便放置在 source 這個分支下。
 clone repository 後必須切換分支才能正確編輯檔案。
 
 ```
-git clone https://github.com/shian/shian.github.io.git
-cd shian.github.io
-git checkout source
+git clone --recursive --branch source https://github.com/shian/shian.github.io.git
 ```
 
 ## 撰寫文章
